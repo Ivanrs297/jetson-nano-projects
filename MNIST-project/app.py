@@ -2,7 +2,7 @@ import jetson.inference
 import jetson.utils
 
 # load model 
-net = jetson.inference.imageNet("simple_mnist_model")
+net = jetson.inference.imageNet(model = "simple_mnist_model.onnx")
 camera = jetson.utils.videoSource("csi://0")      # '/dev/video0' for V4L2
 display = jetson.utils.videoOutput("display://0") # 'my_video.mp4' for file
 
