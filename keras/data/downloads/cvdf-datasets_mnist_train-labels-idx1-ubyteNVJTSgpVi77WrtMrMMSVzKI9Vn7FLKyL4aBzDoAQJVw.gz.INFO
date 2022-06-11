@@ -1,1 +1,0 @@
-{"dataset_names": ["mnist"], "original_fname": "train-labels-idx1-ubyte.gz", "url_info": {"checksum": "3552534a0a558bbed6aed32b30c495cca23d567ec52cac8be1a0730e8010255c", "filename": "train-labels-idx1-ubyte.gz", "size": 28881}, "urls": ["https://storage.googleapis.com/cvdf-datasets/mnist/train-labels-idx1-ubyte.gz"]}
