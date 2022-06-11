@@ -1,0 +1,1 @@
+{"dataset_names": ["mnist"], "original_fname": "train-images-idx3-ubyte.gz", "url_info": {"checksum": "440fcabf73cc546fa21475e81ea370265605f56be210a4024d2ca8f203523609", "filename": "train-images-idx3-ubyte.gz", "size": 9912422}, "urls": ["https://storage.googleapis.com/cvdf-datasets/mnist/train-images-idx3-ubyte.gz"]}
