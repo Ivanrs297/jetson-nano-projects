@@ -22,7 +22,7 @@
    ```
 4. Mount Docker container with 
    ```
-   $ docker/run.sh --volume ~/MNIST-project:/MNIST-project
+   $ docker/run.sh --volume ~/jetson-nano-projects/MNIST-project:/MNIST-project
    ```
 5. Run 
    ```
