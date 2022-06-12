@@ -2,7 +2,7 @@ import jetson.inference
 import jetson.utils
 
 # load model 
-net = jetson.inference.imageNet(argv=['--model=simple_mnist_model.onnx'])
+net = jetson.inference.imageNet(argv=['--model=simple_mnist_model.onnx', "--labels=labels.txt"])
 # net = jetson.inference.detectNet(argv=[‘--model=models/coin/ssd-mobilenet.onnx’, ‘--labels=models/coin/labels.txt’, ‘--input-blob=input_0’, ‘--output-cvg=scores’, ‘--output-bbox=boxes’], threshold=0.5)
 camera = jetson.utils.videoSource("csi://0")      # '/dev/video0' for V4L2
 display = jetson.utils.videoOutput("display://0") # 'my_video.mp4' for file
