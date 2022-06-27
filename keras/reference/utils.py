@@ -6,10 +6,10 @@ def plot_history(history):
 
     # summarize history for mean_squared_error
     plt.subplot(121)
-    plt.plot(history.history['sparse_categorical_accuracy'])
-    plt.plot(history.history['val_sparse_categorical_accuracy'])
-    plt.title('Model sparse_categorical_accuracy')
-    plt.ylabel('sparse_categorical_accuracy')
+    plt.plot(history.history['accuracy'])
+    plt.plot(history.history['val_accuracy'])
+    plt.title('Model accuracy')
+    plt.ylabel('accuracy')
     plt.xlabel('epoch')
     plt.legend(['Train', 'Validation'], loc='upper left')
 
